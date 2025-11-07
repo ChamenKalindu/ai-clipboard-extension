@@ -1,0 +1,8 @@
+Summarize the following text into **concise bullet points** only. 
+Each bullet should be short. 
+Do not add extra explanation.
+Make the complex content or news easier to understand at a glance.
+The given text can be anything such as lecture pdfs, web content, blog content, news content ot any other text content.
+The text is given below:
+    
+{{text}}
