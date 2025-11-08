@@ -14,7 +14,7 @@ const template = fs.readFileSync(promptPath, "utf-8");
 
 const token = process.env.OPENAI_API_KEY;
 const endpoint = "https://models.github.ai/inference";
-const model = "gpt-4o";
+const model = "openai/gpt-4o-mini";
 const client = new OpenAI({ baseURL: endpoint, apiKey: token });
 
 export const summarizeService = {

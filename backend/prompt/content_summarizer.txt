@@ -1,4 +1,4 @@
-Summarize the following text into **concise bullet points** only. 
+Summarize the given text into **concise bullet points** that are easier to understand.
 Each bullet should be short. 
 Do not add extra explanation.
 Make the complex content or news easier to understand at a glance.
