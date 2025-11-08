@@ -32,7 +32,7 @@ const App = () => {
       // Send message to content.js to show overlay
       chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
         if (!tabs.length) {
-          console.error("❌ No active tab found!");
+          console.error("No active tab found!");
           return;
         }
 
@@ -42,11 +42,11 @@ const App = () => {
           (response) => {
             if (chrome.runtime.lastError) {
               console.error(
-                "❌ Could not send message:",
+                "Could not send message:",
                 chrome.runtime.lastError.message
               );
             } else {
-              console.log("✅ Message sent to content script!");
+              console.log("Message sent to content script!");
             }
           }
         );
@@ -75,7 +75,7 @@ const App = () => {
       {!isLoading && (
         <button
           onClick={summarize}
-          className="w-full mt-4 bg-gradient-to-r from-amber-300 to-yellow-400 hover:from-amber-400 hover:to-yellow-500 text-gray-900 font-semibold py-2.5 rounded-xl shadow-md transition-all duration-200 hover:shadow-lg active:scale-[0.98]"
+          className="w-full mt-4 bg-linear-to-r from-amber-300 to-yellow-400 hover:from-amber-400 hover:to-yellow-500 text-gray-900 font-semibold py-2.5 rounded-xl shadow-md transition-all duration-200 hover:shadow-lg active:scale-[0.98]"
         >
           Summarize
         </button>
