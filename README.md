@@ -1,4 +1,4 @@
-# 🧠 AI Clipboard Summarizer (Chrome Extension)
+# AI Clipboard Summarizer (Chrome Extension)
 
 **AI Clipboard Summarizer** is a smart Chrome extension that automatically detects copied text and instantly summarizes it using an AI-powered backend (OpenAI API + Node.js).  
 It’s designed to boost productivity by allowing users to quickly understand long content without leaving their current tab.
